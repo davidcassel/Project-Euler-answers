@@ -10,11 +10,8 @@
 
  #!usr/bin/perl
 
-
  for ($x = 1; $x < 1000; $x++) {  
-
     $total += $x if ($x % 3 == 0) || ($x % 5 == 0)
-
  }
 
 print $total;
